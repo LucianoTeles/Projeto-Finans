@@ -11,10 +11,87 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-    <title>Olá, mundo!</title>
+    <!--Estilo Customizado-->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Finans - Finanças pessoais</title>
   </head>
   <body>
-    <h1>Olá, mundo!</h1>
+
+
+        <header>
+          <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                  <img src="img/logo.png" width="142" alt="">
+                </a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+          
+            <div class="collapse navbar-collapse" id="nav-principal">
+              <ul class="navbar-nav ml-auto mr-5">
+                <li class="nav-item">
+                  <a class="nav-link" href="">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Recursos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Benefícios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Preço</a>
+                </li>
+                <li class="nav-item">
+                  <button type="button" class="btn btn-outline-light ml-4">Entrar</button>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+        </header>
+        
+        <section id="home">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 d-flex">
+                <div class="align-self-center">
+                  <h1 class="display-4">Suas contas, descomplicadas</h1>
+                  <p>
+                    Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira.
+                  </p>
+
+                  <form action="">
+                    <div class="input-group input-group-lg mt-4 mb-4">
+                      <input type="text" placeholder="Seu e-mail" class="form-control">
+                      <div class="input-group-append ">
+                        <button type="button" class=" btn btn-primary"> Cadastre-se</button>
+                      </div>
+                    </div>
+                  </form>
+
+                  <p>
+                    Disponível para 
+                    <a href="" class="btn btn-outline-light">
+                      <i class="fab fa-android fa-lg"></i>
+                    </a>
+                    <a href="" class="btn btn-outline-light">
+                      <i class="fab fa-apple fa-lg"></i>
+                    </a>
+                  </p>
+
+                </div> 
+              </div>
+              <div class="col-md-6 d-none d-md-block"> 
+               <img src="img/capa-mulher.png" alt="">
+              </div>
+            </div>
+          </div>
+        </section>
+    
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
